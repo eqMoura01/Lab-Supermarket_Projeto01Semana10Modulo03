@@ -18,3 +18,7 @@ Lab Supermarket é um sistema de API desenvolvido com o pensamento de ajudar mer
 5 - Alterar as configurações em './src/main/resources/application.properties' para as definições do seu banco de dados (tais como nome do banco e senha do usuario);
 
 6 - Após todos os requisitos anteriores serem atendidos, o usuario deve instalar as depencias atraves do terminal da IDE com o comando 'mvn clean install'.
+
+## Documentação das APIs
+
+Swagger: http://localhost:8080/swagger-ui/index.html#/
