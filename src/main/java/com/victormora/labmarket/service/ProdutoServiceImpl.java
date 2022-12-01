@@ -36,7 +36,7 @@ public class ProdutoServiceImpl implements ProdutoService {
 
         if (Objects.nonNull(object)) {
             BeanUtils.copyProperties(object, produtoPesquisado, "id");
-            validaNome(object.getNome());
+            // validaNome(object.getNome());
             this.produtoRepository.save(object);
         }
 
